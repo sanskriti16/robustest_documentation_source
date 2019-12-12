@@ -1,0 +1,10 @@
+.bolditalic {
+  font-weight: bold;
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+.red { 
+  color: red; 
+}
