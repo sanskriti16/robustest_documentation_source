@@ -1,5 +1,5 @@
-Create Project
-==============
+Project
+=======
 
 On RobusTest, all activity related to the testing of a mobile app will be part of a *Project*. 
 
