@@ -18,7 +18,7 @@ Each session entry provides you information about:
 
 In addition to the above info, you will also find the following buttons:-
 
-* *Live Screen button* - You can view the live screen of a device currently being used by the user by cicking on this button(i.e., the monitor icon). A new window will open with the screen of the device. In case of a test run, one can also see the test steps on the live screen.
+* *Live Screen button* - You can view the live screen of a device currently being used by the user by cicking on this button(i.e., the monitor icon). A new window will open with the screen of the device. In case of a test run, one can also see the test steps on the live screen. To be able to control the device screen during a test run session, append the following to the live screen URL: "?deviceControl=true"
 
 .. image:: _static/liveview1.png
 
