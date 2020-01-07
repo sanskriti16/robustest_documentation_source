@@ -3,6 +3,10 @@
 Parametrisation of Data
 =======================
 
-1. Mapping data to previous step (References and Dependencies to be covered here)
-2. Mapping data to external input
-3. Using datasets
+.. toctree::
+   :maxdepth: 3
+   :numbered: 1
+   :includehidden:
+
+	mapping_to_step
+	mapping_to_dataset
