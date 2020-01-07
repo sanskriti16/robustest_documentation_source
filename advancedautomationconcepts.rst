@@ -8,7 +8,7 @@ Advanced Automation Concepts
    
    verification
    functions
-   dataparametrisation
+   dataparameterisation
 
 
 .. role:: bolditalic
@@ -24,4 +24,4 @@ Let's have a look at a few advanced concepts being used in automating test scrip
 
 2. :ref:`functions-main`
 
-3. :ref:`data-parametrisation`
+3. :ref:`data-parameterisation`

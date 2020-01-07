@@ -1,6 +1,6 @@
-.. _data-parametrisation:
+.. _data-parameterisation:
 
-Parametrisation of Data
+Parameterisation of Data
 =======================
 
 .. toctree::
