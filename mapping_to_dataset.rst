@@ -34,7 +34,7 @@ Payload:
 
 .. code-block:: JSON
 
-{
+  {
 	"name" : "<Data Set Name>",
 	"desc" : "<Data Set Description>",
 	"project" : "<Project ID>",
@@ -47,7 +47,7 @@ Payload:
 		"device": "<device id optional>",
 		"data" : {"<variable name 1>":"value", "<variable name 2>":"value"}
 	}]
-}
+  }
 
 In the payload, provide the device id if you wish to run a specific data on a specific device. In case, you do not have such a requirement, you can leave the device values blank.
 
@@ -61,7 +61,7 @@ Payload:
 
 .. code-block:: JSON
 
-{
+  {
 	"name" : "loginDataSet",
 	"desc" : "Data Set for multiple user accounts",
 	"project" : "d2312312dsadasdad",
@@ -74,7 +74,7 @@ Payload:
 		"device": "",
 		"data" : {"username":"someone@someone.com", "password":"someone123"}
 	}]
-}
+  } 
 
 * Executing the above API will provide the DataSet in the response with the key _id. Note down this Data Set id.
 
@@ -88,7 +88,7 @@ Payload:
 
 .. code-block:: JSON
 
-{
+  {
   "testsuite": "<Test Suite ID>",
   "project": "<Project ID>",
   "build": "<Build ID>",
@@ -123,7 +123,7 @@ Payload:
   "setting": "",
   "datasetID": "<Data Set ID>",
   "datasetMode": "<valid value is strict or blank>"
-}
+ }
 
 If you set the datasetMode to strict, while running the tests, the dataset will be run only on the corresponding devices. In case the datasetMode is not set to strict, then the system randomly assigns the dataset to the devices on a first come first serve basis.
 
@@ -137,7 +137,7 @@ Payload:
 
 .. code-block:: JSON
 
-{
+  {
   "testsuite": "5e0d18075752875f4d723e01",
   "project": "5d6f3d1f57528725c1afa13b",
   "build": "5df1e691575287692822d4d9",
@@ -172,5 +172,5 @@ Payload:
   "setting": "",
   "datasetID": "5e135c765752875a2a64d33a",
   "datasetMode": "strict"
-}
+ }
 
