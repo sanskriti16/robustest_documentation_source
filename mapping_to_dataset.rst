@@ -32,6 +32,8 @@ URL: http://<RobusTest URL>/v3/dataset/new?accesskey=<access key>
 
 Payload:
 
+.. code-block:: JSON
+
 {
 	"name" : "<Data Set Name>",
 	"desc" : "<Data Set Description>",
@@ -57,6 +59,8 @@ URL: http://devicelab.acme.com/v3/dataset/new?accesskey=d2342dsdad231313
 
 Payload:
 
+.. code-block:: JSON
+
 {
 	"name" : "loginDataSet",
 	"desc" : "Data Set for multiple user accounts",
@@ -81,6 +85,8 @@ HTTP Method: POST
 URL: http://<RobusTest URL>/v3/run/new?accesskey=<access key>
 
 Payload:
+
+.. code-block:: JSON
 
 {
   "testsuite": "<Test Suite ID>",
@@ -126,6 +132,10 @@ Sample
 HTTP Method: POST
 
 URL: http://devicelab.acme.com/v3/run/new?accesskey=d2342dsdad231313
+
+Payload:
+
+.. code-block:: JSON
 
 {
   "testsuite": "5e0d18075752875f4d723e01",
