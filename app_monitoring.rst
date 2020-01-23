@@ -42,9 +42,9 @@ Provide values for the various fields in the pop up dialog
 
 Create an app monitor by creating a test case with the following steps in the same order
 
-Step 1: Import Setup function
-Step 2: Import Setup App State function
-Step 3: Import Monitor function
+ * Step 1: Import Setup function
+ * Step 2: Import Setup App State function
+ * Step 3: Import Monitor function
 
 When saving this test case, select the test case type as Monitoring.
 Add this test case to a test suite
