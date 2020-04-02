@@ -9,7 +9,7 @@ Manual Testing
    multidevicetesting
 
 .. role:: bolditalic
-    ßßß:class: bolditalic
+    :class: bolditalic
 
 .. role:: underline
     :class: underline
@@ -232,7 +232,7 @@ The Manual Test Session, consists of 2 parts:
 
   **13. Switch to multiplexing**
 
-   You can toggle between multi-device testing and testing in a single device using this button
+   You can toggle between multi-device testing and testing in a single device using this button.
 
   .. :bolditalic:`14. Log bug`    
 
