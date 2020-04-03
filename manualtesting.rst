@@ -114,7 +114,7 @@ The Manual Test Session, consists of 2 parts:
 
    Increasing the screen ratio decreases the resolution of the device screen and enables the user to continue testing at a lower bandwidth.
 
-   Decreasing the screen ratio enables the user to test on the device screen at higher reslution
+   Decreasing the screen ratio enables the user to test on the device screen at higher reslution.
 
   .. :bolditalic:`6. Device screen rotation`
 
