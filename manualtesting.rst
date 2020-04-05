@@ -29,7 +29,7 @@ To start a Manual test session:
 
    *Note:* RobusTest provides you a way to select multiple devices in parallel to perform your manual testing. To know more go to the page on :ref:`multi-device-testing` 
   
-3. Once you have selected the device, click on the 'Play' button on the top right corner
+3. Once you have selected the device, click on the 'Play' button on the top right corner.
  
    The device screen now comes up and you can see that your app is installed on the device. 
 
