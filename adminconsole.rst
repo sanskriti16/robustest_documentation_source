@@ -228,17 +228,6 @@ Once you have created contacts, you can add these to the contact list on the Dev
 
 **11. Settings**
 
-This section enables you to configure different kinds of values on the RobusTest platform:
+This section enables you to configure various parameters on the RobusTest platform.
 
-* a. *Notification*
-
-  In this section, you can decide if a notification email should be sent out for the following events:
-
-  * Device Connections
-  * Device Disconnections
-  * Node Connections
-  * Node Disconnections
-
-* b. *Network Shaping*
-
-  *Under Contruction*
+More details are avaible in the :doc:`settings` page

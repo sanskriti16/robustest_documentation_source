@@ -17,14 +17,16 @@ c. Monitor
 
 The Setup function & Setup App State function work together to bring the app to the state/screen which needs to be monitored. What is the difference between the two and the need for the two you may ask.
 
-If while running the App Monitor, the app crashes or the app needs to be brough back to the screen because of screen stuck, then the system will use the test steps in the SetApp State to come back to the screen.
+If while running the App Monitor, the app crashes or the app needs to be brought back to the screen because of the screen being stuck, then the system will use the test steps in the Setup App State function to come back to the screen.
 
 If while running the App Monitor, the monitoring process as a whole crashes or errors out, then the system will need to start the whole process from the start including logging into the app or similar steps which will be required for a fresh install. In such a case the Setup and Setup App State functions will both be run in that order.
 
 **Monitor function**
 
 The Monitor function contains the steps which specify which elements on the screen need to be monitored.
+
 To create a monitor step, click on the Monitor button on the upper toolbar in the Automator session
+
 Provide values for the various fields in the pop up dialog
 
  * Event Name - Provide a name for the event
@@ -47,6 +49,9 @@ Create an app monitor by creating a test case with the following steps in the sa
  * Step 3: Import Monitor function
 
 When saving this test case, select the test case type as Monitoring.
+
 Add this test case to a test suite
+
 Run the test suite.
+
 To stop App Monitor, close the run from the Test Runs page
