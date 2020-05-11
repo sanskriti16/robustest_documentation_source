@@ -3,6 +3,12 @@
 Multi-device testing
 ====================
 
+.. role:: bolditalic
+  :class: bolditalic
+
+.. role:: underline
+  :class: underline
+
 The ability to perform manual testing on multiple devices in parallel is one of the defining features of the RobusTest platform.
 
 We refer to this ability as **Multiplexing**
@@ -26,7 +32,7 @@ Multiplexing provides you an advantage in the following scenarios:
 
 There are two ways to begin a Manual multiplexing test session:
 
-  Method 1: *Starting a multi-device test session directly*
+  **Method 1:** *Starting a multi-device test session directly*
 
   1. Click on the 'Manual' icon on the Project Dashboard.
 
@@ -34,7 +40,7 @@ There are two ways to begin a Manual multiplexing test session:
 
   3. Once you have selected the devices, click on the 'Play' button on the top right corner. The multiplexing session is now in progress.
 
-  Method 2: *Switching to a multi-device test session from a single device manual test session*
+  **Method 2:** *Switching to a multi-device test session from a single device manual test session*
 
   1. Click on the 'Manual' icon on the Project Dashboard.
 
@@ -58,30 +64,30 @@ There are two menus you need to familiarize yourself with in a multiplexing test
 
 The following buttons are visible on this menu:
 
-  1. *Enable Replication* - Clicking on this button enables you to replicate an action that you perform on one device in the multiplexing test session on all other devices in the same test session.
+  **1.** :bolditalic:`Enable Replication` - Clicking on this button enables you to replicate an action that you perform on one device in the multiplexing test session on all other devices in the same test session.
 
      This feature works in cases where all devices being used in the multiplexing test session are of comparable screen size and resolution.
 
      It helps you to considerably reduce the time spent in testing on multiple devices.
 
-  2. *Add more devices* - You can add more devices to a multiplexing session by clicking on this button. 
+  **2.** :bolditalic:`Add more devices` - You can add more devices to a multiplexing session by clicking on this button. 
 
      Clicking on this button brings up the device selection dialog. Click on the '*Select*' button for the device that you wish to add to the multiplexing test session and then click on the '*Play*' button. The new device screens will now be visible in the multiplexing test session.
 
-  3. *Take Screenshot* - On clicking on this button, a screenshot of all device screens in the test session is taken and downloaded to your computer.
+  **3.** :bolditalic:`Take Screenshot` - On clicking on this button, a screenshot of all device screens in the test session is taken and downloaded to your computer.
 
-  4. *End Test Session* - Clicking on this button ends the multiplexing test session in its entirety and all devices that are used in the test session are freed and made available for new test sessions.
+  **4.** :bolditalic:`End Test Session` - Clicking on this button ends the multiplexing test session in its entirety and all devices that are used in the test session are freed and made available for new test sessions.
 
 **2. Horizontal menu above each device screen**
 
 This menu is visible above ech device screen in the test session and is specific to that device. The following buttons are visibleon this menu:
 
-  1. *Switch to Manual mode* - Clicking on this button, opens that specific device in a single-device manual test session. You can always go back to your multiplexing test session by clicking on the '*Switch to Mutliplexing*' button in the manual test session.
+  **1.** :bolditalic:`Switch to Manual mode` - Clicking on this button, opens that specific device in a single-device manual test session. You can always go back to your multiplexing test session by clicking on the '*Switch to Mutliplexing*' button in the manual test session.
 
-  2. *Download device logcat* - As the name suggests, clicking on this button downloads the logcat report for that device.
+  **2.** :bolditalic:`Download device logcat` - As the name suggests, clicking on this button downloads the logcat report for that device.
 
-  3. *View device logcat* - Clicking on this button displays the logcat for that device on a new browser tab.
+  **3.** :bolditalic:`View device logcat` - Clicking on this button displays the logcat for that device on a new browser tab.
 
-  4. *End Test Session* - You can remove a specific device from a multiplexing test session by clicking on 'End Test Session' button on the horizontal menu bar on that device.
+  **4.** :bolditalic:`End Test Session` - You can remove a specific device from a multiplexing test session by clicking on 'End Test Session' button on the horizontal menu bar on that device.
 
 
