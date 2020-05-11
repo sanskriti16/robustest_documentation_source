@@ -3,8 +3,11 @@
 Test Session - Device Management
 ================================
 
+.. role:: bolditalic
+  :class: bolditalic
 
-
+.. role:: underline
+  :class: underline
 
 
 **1. Pause/Resume Automation session**
@@ -82,7 +85,7 @@ To change  to Landscape mode:
 
 This feature allows you to test as if the device is present at a different location than where it actually is. This is done by  simulating the location on the device.
 
-*Pre-requisites*:
+:bolditalic:`Pre-requisites:`
 
   On the device:
 
