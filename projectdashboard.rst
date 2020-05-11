@@ -2,10 +2,10 @@ Project Dashboard
 =================
 
 .. role:: bolditalic
-   :class: bolditalic
+  :class: bolditalic
 
 .. role:: underline
-    :class: underline
+  :class: underline
 
 .. |br| raw:: html
 
@@ -41,9 +41,9 @@ You can upload multiple builds to a project. You can choose the build to be test
 
 In addition to providing you the details about the build, this section of the Dashboard also allows you to perform the following tasks:
 
-* *Upload New Build* - Clicking on this button enables you to manually upload an app build from a chosen location to the project
-* *Get selected Build URL* - Clicking on this button copies to the clipboard, the URL to download the currently selected build in the project. On pasting this URL on a browsr tab and hitting enter, the user is able to download the currently selected build onto their computer.
-* *Delete Selected Build* - Clicking on this button deletes the currently selected build from the project. Only a project member with admin privileges can delete a build.
+* :bolditalic:`Upload New Build` - Clicking on this button enables you to manually upload an app build from a chosen location to the project
+* :bolditalic:`Get selected Build URL` - Clicking on this button copies to the clipboard, the URL to download the currently selected build in the project. On pasting this URL on a browsr tab and hitting enter, the user is able to download the currently selected build onto their computer.
+* :bolditalic:`Delete Selected Build` - Clicking on this button deletes the currently selected build from the project. Only a project member with admin privileges can delete a build.
 
 **2. Team**
 
@@ -62,7 +62,7 @@ Admin members have a few additonal privileges when compared to non-admin members
 
 By default, a member who creates a project has admin privileges on that project.
 
-Note: *An Admin member of a project is different from a RobusTest Admin* The former's privileges are restricted to the project the member is a part of while the latter has special prvileges on the entire RobusTest platform
+**Note:** :bolditalic:`An Admin member of a project is different from a RobusTest Admin` The former's privileges are restricted to the project the member is a part of while the latter has special prvileges on the entire RobusTest platform
 
 **3. Upload Build - Remote**
 
@@ -73,7 +73,7 @@ Here, a CURL command is provided which enables the user to upload an app build t
 The general format of this command is as follows::
 
 
-  **curl -X PUT '<RobusTest URL>/v3/project/<PROJECT IDENTIFIER>/build?accesskey=<USER ACCESS KEY>' -H 'content-Type: multipart/form-data' -F build=@<BUILD NAME WITH PATH> -F  buildInfo='{"desc":"<build description>", "label":"<label>","activityClass":"<launch actvity>"}'**
+   curl -X PUT '<RobusTest URL>/v3/project/<PROJECT IDENTIFIER>/build?accesskey=<USER ACCESS KEY>' -H 'content-Type: multipart/form-data' -F build=@<BUILD NAME WITH PATH> -F  buildInfo='{"desc":"<build description>", "label":"<label>","activityClass":"<launch actvity>"}'
 
 Let's break down the different components of this command for better understanding:
 
@@ -101,9 +101,9 @@ Let's break down the different components of this command for better understandi
 
 * **buildINFO section**: This section is used to provide additional details about the build such as description, label or launch activity. It is not mandatory.
 
-A sample remote build upload command would look as follows:
+A sample remote build upload command would look as follows::
 
-**curl -X PUT 'http://robustest.this.instance.com:8085/v3/project/5d176ffef0238be8f3b7afa5/build?accesskey=aY33cDmkt7B2nAjxBl6Tp2FWv4' -H 'content-Type: multipart/form-data' -F build=@/username/build/new/latestbuild.apk -F  buildInfo='{"desc":"description from api"}'**
+   curl -X PUT 'http://robustest.this.instance.com:8085/v3/project/5d176ffef0238be8f3b7afa5/build?accesskey=aY33cDmkt7B2nAjxBl6Tp2FWv4' -H 'content-Type: multipart/form-data' -F build=@/username/build/new/latestbuild.apk -F  buildInfo='{"desc":"description from api"}'
 
 You can now run the above command directly on the Command Line OR choose to invoke this build-upload API through a programming script in a language of your choice.
 
@@ -114,9 +114,9 @@ E.g. you can add the above line to your Jenkins shell script that creates a new 
 
 This section provides you the following options:
 
-*a. Enable notifications* - On enabling this checkbox, each member of the team is notified whenever a new build is uploaded to the project
+**a.** :bolditalic:`Enable notifications` - On enabling this checkbox, each member of the team is notified whenever a new build is uploaded to the project
 
-*b. Choose Bug Tracker configuration* - RobusTest supports Continuous Integration with your existing CI tools through APIs. 
+**b.** :bolditalic:`Choose Bug Tracker configuration` - RobusTest supports Continuous Integration with your existing CI tools through APIs. 
 
 Once you have integrated your Bug Tracker tool wih RobusTest, this configuration will be available for selection in the 'Bug Tracker' drop down. Once the required configuration is selected, all bugs encountered during your testing can be logged directly, from RobusTest, into the tool of your choice.
 
