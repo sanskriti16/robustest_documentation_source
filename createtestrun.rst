@@ -18,7 +18,8 @@ a. *Test Suite*
 b. *Run Settings*
 c. *App build*
 d. *Devices*
-e. *Data sets* 
+e. *Data sets*
+f. *Run Mode* 
 
 **a. Test Suite**
 
@@ -58,7 +59,7 @@ To *unselect* a selected device, perform any one of the following actions:
 
 * click on the same device in the drop down for a second time; *or*
 * delete the entry corresponding to this device in the 'Select Devices' field using the keyboard; or;
-* on the list of device rows displayed below the 'Select Devices' drop down, click oin the 'Remove Selected Devices' button for the entry corresponding to the device to be removed from the run
+* on the list of device rows displayed below the 'Select Devices' drop down, click oin the 'Remove Selected Devices' button for the entry corresponding to the device to be removed from the run.
 
 **e. Data sets**
 
@@ -74,4 +75,24 @@ If you do not specifically select a data set, then, the 'Original' data set, tha
 
 Details of the data set chosen can be seen by clicking on the 'View Data Set' button on the same row.
 
-To know more about data sets, read the '*Using Datasets*' section of the :ref:`data-parametrisation` page.
+To know more about data sets, read the '*Using Datasets*' section of the :ref:`data-parameterisation` page.
+
+**f. Run Mode**
+
+Test runs can be executed in one of two modes:
+
+  *1. Parallel*
+  
+  *2. Distributed*
+
+  **1. Parallel Run Mode**
+
+  * In this mode, :bolditalic:`all` test cases in the test suite are executed on :bolditalic:`each` device that has been selected for the run.
+  * This mode is helpful in improving device coverage for your tests.
+
+  **2. Distributed Run Mode**
+
+  * In this mode, the test cases in the test suite are distributed among the devices that have been selected for the run and then executed.
+  * Initially each device is given a different test case for execution. 
+  * When a test case has been executed to completion, the device is free. This device is then provided another test case from the test suite for execution.
+  * This mode is useful in increasing the speed of execution of your tests, resulting in fater turnaorund.
