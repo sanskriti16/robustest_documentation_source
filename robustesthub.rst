@@ -8,6 +8,7 @@ RobusTest Hub
    hubappium
    hubespresso
    hubxctest
+   hubselenium
 
 
 .. role:: bolditalic
