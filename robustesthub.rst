@@ -7,7 +7,7 @@ RobusTest Hub
    
    hubappium
    hubespresso
-   hubxctest
+   hubxcuitest
    hubselenium
 
 
