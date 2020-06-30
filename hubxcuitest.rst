@@ -1,7 +1,7 @@
-.. _hub-xctest:
+.. _hub-xcuitest:
 
-Running test cases on XCTest
-============================
+XCUITest
+========
 
 **1.** Identify the project which you shall use for running your tests. If you do not already have such a project, then you need to first create a project. Once identified, note down the Project ID for the project.
 

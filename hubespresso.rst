@@ -1,7 +1,7 @@
 .. _hub-espresso:
 
-Running Espresso tests for mobile app
-=====================================
+Espresso
+========
 
 **Introduction to Espresso**
 

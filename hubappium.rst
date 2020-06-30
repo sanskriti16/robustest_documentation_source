@@ -1,7 +1,7 @@
 .. _hub-appium:
 
-Running test cases on Appium
-============================
+Appium [Current]
+================
 
 
  .. image:: _static/buildURL.png

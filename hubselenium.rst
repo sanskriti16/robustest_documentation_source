@@ -1,7 +1,7 @@
-.. _hub-appium:
+.. _hub-selenium:
 
-Running Selenium tests for web app
-==================================
+Selenium
+========
 
 
  .. image:: _static/buildURL.png	
