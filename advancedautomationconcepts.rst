@@ -2,7 +2,7 @@ Advanced Automation Concepts
 ============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :numbered:
    :hidden:
    
@@ -12,10 +12,10 @@ Advanced Automation Concepts
 
 
 .. role:: bolditalic
-   :class: bolditalic
+  :class: bolditalic
 
 .. role:: underline
-    :class: underline
+  :class: underline
 
 
 Let's have a look at a few advanced concepts being used in automating test scripts:

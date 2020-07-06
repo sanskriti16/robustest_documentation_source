@@ -4,8 +4,7 @@ Parameterisation of Data
 ========================
 
 .. toctree::
-   :maxdepth: 3
-   :numbered: 1
+   :maxdepth: 2
    :includehidden:
 
    mapping_to_step
