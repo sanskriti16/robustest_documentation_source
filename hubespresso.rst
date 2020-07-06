@@ -1,7 +1,7 @@
 .. _hub-espresso:
 
-Running test cases on Espresso
-==============================
+Espresso
+========
 
 **Introduction to Espresso**
 

@@ -6,8 +6,10 @@ RobusTest Hub
    :hidden:
    
    hubappium
+   hubappium_new
    hubespresso
-   hubxctest
+   hubxcuitest
+   hubselenium
 
 
 .. role:: bolditalic
@@ -24,6 +26,10 @@ At the end of the run, detailed run reports are also generated
 
 1. :ref:`hub-appium`
 
-2. :ref:`hub-espresso`
+2. :ref:`hub-appium_new`
 
-3. :ref:`hub-xctest`
+3. :ref:`hub-espresso`
+
+4. :ref:`hub-xcuitest`
+
+5. :ref:`hub-selenium`

@@ -1,4 +1,4 @@
-Automation testing
+RobusTest Automator
 ===================
 
 

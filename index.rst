@@ -19,8 +19,8 @@ Contents:
    projectdashboard
    manualtesting
    automationtesting
-   runsettings
    testrunexecution
+   runsettings
    liveview
    performancetesting
    automationreports
