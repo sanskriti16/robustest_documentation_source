@@ -3,13 +3,6 @@
 Selenium
 ========
 
-.. toctree::
-   :maxdepth: 3
-   :numbered:
-   :hidden:
-   
-   hubseleniumrandombrowser
-
 .. image:: _static/buildURL.png	
 
 1. create a web project
