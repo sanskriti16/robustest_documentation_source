@@ -16,7 +16,7 @@ To run your Appium tests using the new RobusTest Hub for Appium, you need to do 
 
 This will be of the form 
 
-*http(s)://[RobusTest Device Lab URL]/wd/hub*
+**http(s)://[RobusTest Device Lab URL]/wd/hub**
 
 Note that this is different from the older Hub which used to run on port 3142 by default
 
