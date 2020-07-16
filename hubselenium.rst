@@ -3,8 +3,7 @@
 Selenium
 ========
 
-
- .. image:: _static/buildURL.png	
+.. image:: _static/buildURL.png	
 
 1. create a web project
 2. Hub url - point to nerve server 
