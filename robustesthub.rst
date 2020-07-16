@@ -5,8 +5,8 @@ RobusTest Hub
    :maxdepth: 2
    :hidden:
    
-   hubappium
    hubappium_new
+   hubappium
    hubespresso
    hubxcuitest
    hubselenium

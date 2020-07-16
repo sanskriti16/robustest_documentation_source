@@ -1,8 +1,7 @@
 .. _hub-appium:
 
-Appium [Current]
-================
-
+Appium 1.0
+==========
 
  .. image:: _static/buildURL.png
 
