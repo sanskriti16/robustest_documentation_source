@@ -1,7 +1,7 @@
 .. _hub-appium_new:
 
-Appium
-======
+Appium Hub 2.0
+==============
 
 
  .. image:: _static/buildURL.png
@@ -66,3 +66,4 @@ To retrieve the RobusTest session ID using the robustestSessionIdentifier use th
 To retrieve the RobusTest session ID using the robustestSessionIdentifier use the following API
 
 **GET /v3/hub/session/{Appium Session ID}**
+
