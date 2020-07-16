@@ -24,9 +24,9 @@ You can view the execution of your test cases real-time using our Live View opti
 
 At the end of the run, detailed run reports are also generated
 
-1. :ref:`hub-appium`
+1. :ref:`hub-appium_new`
 
-2. :ref:`hub-appium_new`
+2. :ref:`hub-appium`
 
 3. :ref:`hub-espresso`
 
