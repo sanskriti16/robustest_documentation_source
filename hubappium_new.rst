@@ -53,17 +53,17 @@ When you run an Appium job on the RobusTest Hub, it may contain many Appium sess
 
 **Getting the RobusTest test session ID**
 
-Once you start you Appium tests, you will want to see details about you Appium session. You can get the RobusTest Session ID in two ways
+Once you start your Appium tests, you will want to see details about your Appium session. Details of your Appium session can be retrieved using the RobusTest Session ID which gets created when you try to start an Appium session on RobusTest. You can get the RobusTest Session ID in two ways
 
 1. By specifying a unique identifier **robustestSessionIdentifier** with your test session - The advantage of using this identifier to get the RobusTest session ID is that, even if your Appium session does not get created due to various reasons, you will have the RobusTest session ID which will help you access the appium log and other details. The identifier will have to passed as a desired capability when starting your Appium session.
 
-To retrieve the RobusTest session ID using the robustestSessionIdentifier use the following API
+To retrieve the RobusTest session ID using the **robustestSessionIdentifier**, use the following API
 
 **GET /v3/hub/sessionIdentifer/{robustestSessionIdentifer}**
 
 2. By using the Appium session ID that is created when an Appium session starts. When using this method, you will be able to get the RobusTest Session ID only when you have a valid Appium session ID.
 
-To retrieve the RobusTest session ID using the robustestSessionIdentifier use the following API
+To retrieve the RobusTest session ID using the **robustestSessionIdentifier** use the following API
 
 **GET /v3/hub/session/{Appium Session ID}**
 
