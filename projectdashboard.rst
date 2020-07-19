@@ -13,12 +13,12 @@ Project Dashboard
 
 The Project Dashboard provides you information about the project you have created - i.e., the app under test, the build details, project members, CI settings, etc.
 
-.. image:: _static/projectdashboard2.png
+.. image:: _static/projectdashboard3.png
  	:align: center
 
 Let's have a look at the Dashboard in detail.
 
-The Project Dashboard constitiyes of the following 4 sections:
+The Project Dashboard constitutes of the following 4 sections:
 
 1. Builds
 2. Team
@@ -43,11 +43,12 @@ In addition to providing you the details about the build, this section of the Da
 
 * :bolditalic:`Upload New Build` - Clicking on this button enables you to manually upload an app build from a chosen location to the project
 * :bolditalic:`Get selected Build URL` - Clicking on this button copies to the clipboard, the URL to download the currently selected build in the project. On pasting this URL on a browsr tab and hitting enter, the user is able to download the currently selected build onto their computer.
+* :bolditalic:`Copy the build ID` - Clicking on this button copies to the clipboard, the build ID of the currently selected build in the project.
 * :bolditalic:`Delete Selected Build` - Clicking on this button deletes the currently selected build from the project. Only a project member with admin privileges can delete a build.
 
 **2. Team**
 
-All members who are added to the project are listed on the Team setion. Apps that are part of a particular project can be accessed by everyone who is part of that project.
+All members who are added to the project are listed on the Team section. Apps that are part of a particular project can be accessed by everyone who is part of that project.
 
 Project members have the ability to test, automate and view reports for any build that is part of their project.
 
@@ -120,4 +121,4 @@ This section provides you the following options:
 
 Once you have integrated your Bug Tracker tool wih RobusTest, this configuration will be available for selection in the 'Bug Tracker' drop down. Once the required configuration is selected, all bugs encountered during your testing can be logged directly, from RobusTest, into the tool of your choice.
 
-You can configure your project with the tool of your choice through the 'Integration' section of the RobueTest Admin Console.
+You can configure your project with the tool of your choice through the 'Integration' section of the RobusTest Admin Console.
