@@ -20,8 +20,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'RobusTest 2.0 Documentation'
-copyright = u'2019, Izinga Software Pvt Ltd'
+project = u'RobusTest User Documentation'
+copyright = u'2020, Izinga Software Pvt Ltd'
 author = u'Izinga Software Pvt Ltd'
 
 # The short X.Y version
