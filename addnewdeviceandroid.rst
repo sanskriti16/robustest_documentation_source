@@ -92,3 +92,7 @@ d. Unknown Sources - TURN ON
 ----------------
 
 *P.S. Some older MI devices may have only one of the above options (i.e., i and ii) available and/or may be named differently. Enable the relevant option*
+
+**Additional Steps for RealMe devices:**
+
+a. In 'Developer Options', enable the setting 'Disable Permission Monitoring'
