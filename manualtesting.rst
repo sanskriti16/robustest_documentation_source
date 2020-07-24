@@ -9,6 +9,7 @@ Manual Testing
    deviceconfigmenumanual
    sessionconfigmenumanual
    multidevicetesting
+   testvideomanualtesting
 
 
 .. role:: bolditalic
