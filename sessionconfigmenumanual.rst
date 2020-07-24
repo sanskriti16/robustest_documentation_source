@@ -64,25 +64,28 @@ This is the vertical menu that you see in the Manual test session. It provides t
 
    **10. ANR Log**
 
-   The ANR log or the 'Application Not Responding' report is generated in the event that your app crashes. This log gives you significant information in determining the casue of the crash and is also availble for download.
+   The ANR log or the 'Application Not Responding' report is generated in the event that your app crashes. This log gives you significant information in determining the casue of the crash and is also available for download.
 
    **11. Share Test Session**
 
-   If you encounter a situation where you find a specific scenario in your app flows that you would like to cross-check with or show to your colleagues but they aren't nearby, don;t worry, we got your back.
+   If you encounter a situation where you find a specific scenario in your app flows that you would like to cross-check with or show to your colleagues but they aren't nearby, don't worry, we got your back.
 
-   The 'Share Test Session' featuer enables you to collaborate with colleagues by sharing your device screen with them.
+   The 'Share Test Session' feature enables you to collaborate with colleagues by sharing your device screen with them.
 
    You can share your device screen in two ways:-
+
    a. by sending them a link to your device link by clicking on the 'Copy Share-Link to Clipboard' button
    b. by scanning the QR code displayed with a mobile phone
 
-   Once your colleagues click on the link you shared or fininsh scanning the QR code, not only can they see you perform various actions on the device screen, they can also interact with the same device screen through their computer or mobile device. 
+   Once your colleagues click on the link you shared or finish scanning the QR code, not only can they see you perform various actions on the device screen, they can also interact with the same device screen through their computer or mobile device. 
 
    **12. Connecting to ADB remotely**
 
    This feature was developed with the intention to help your dev team.
 
-   Let's say you find an issue while testing and reach out to a developer for support. If this developer would like to access the ADB on the same device for further investigation, she or he can do so remotely by running the command displayed on your screen.
+   Let's say you find an issue while testing and then reach out to a developer for support. 
+
+   Now, if this developer would like to access the ADB on the same device for further investigation, she or he can do so remotely by running the command displayed on your screen.
 
    They can now work on the device as if it is connected directly to their own computer.
 
@@ -106,7 +109,7 @@ This is the vertical menu that you see in the Manual test session. It provides t
 
    **15. Change Wifi**    
 
-   Sometimes you may want your test device to connect to a diffefrent Wifi network. In such cases, you can use this feature to select the Wifi network of your choice by providing the SSID and Password.
+   Sometimes you may want your test device to connect to a diffe  rent Wifi network. In such cases, you can use this feature to select the Wifi network of your choice by providing the SSID and Password.
 
    **16. Install Build**
 

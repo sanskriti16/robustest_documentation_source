@@ -38,7 +38,7 @@ This is the horizontal menu that you find in your test session page. It provides
 
    Sometimes, as part of your testing, you may want to run a few ADB commands on the device under testing. You can do so by clicking on the 'Run ADB commands on device' button.
 
-   This brings up the Command Line Interfce from where you can execute adb commands directly on the device.
+   This brings up the Command Line Interface from where you can execute adb commands directly on the device.
   
    **3. Enable/Disable Navigation menu on device**
 
@@ -57,7 +57,7 @@ This is the horizontal menu that you find in your test session page. It provides
 
    Increasing the screen ratio decreases the resolution of the device screen and enables the user to continue testing at a lower bandwidth.
 
-   Decreasing the screen ratio enables the user to test on the device screen at higher reslution.
+   Decreasing the screen ratio enables the user to test on the device screen at higher resolution.
 
 
    **6. Device screen rotation**
