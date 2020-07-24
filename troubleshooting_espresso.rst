@@ -9,13 +9,17 @@ When running your Espresso tests on RobusTest, you may come across results or be
 
 2. Run the following commands and check if the output is matching your expectations
 
-	Following command lists all the test classes in your test package
+Following command lists all the test classes in your test package
 
-    adb shell am instrument -w -e log true  -e class {test class name} {application package name/ID}/{test runner name}
+.. code-block:: JSON
 
-    Following command lists all the test methods in your test package
+	adb shell am instrument -w -e log true  -e class {test class name} {application package name/ID}/{test runner name}	
 
-    adb shell am instrument -w -r -e log true -e class {test class name} {application package name/ID}/{test runner name}
+Following command lists all the test methods in your test package
+
+.. code-block:: JSON
+
+	adb shell am instrument -w -r -e log true -e class {test class name} {application package name/ID}/{test runner name}
 
 This will ensure that you know what classes and methods are being picked up by RobusTest when trying to run your Espresso job.
 
