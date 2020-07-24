@@ -1,11 +1,25 @@
 Troubleshooting
 ===============
 
- .. image:: _static/dilbert_troubleshooting.png
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+   :hidden:
+   
+   unabletoaccessRobusTestserver
 
- `Image credit-Dilbert`_
 
-  .. _Image credit-Dilbert: http://dilbert.com/strip/2014-11-22
+.. role:: bolditalic
+  :class: bolditalic
+
+.. role:: underline
+  :class: underline
+
+.. image:: _static/dilbert_troubleshooting.png
+
+`Image credit-Dilbert`_
+
+.. _Image credit-Dilbert: http://dilbert.com/strip/2014-11-22
 
 There are two ways to deal with this. We either say that you will never land in inexpliciable situations with our product or we give you a list of possible places where you may be stuck and subtly shift the blame on you. We will take the latter route.
 
@@ -54,3 +68,5 @@ I am unable to access RobusTest
       # ./StartServer.sh
 
    To find out the IP addresses of the deployment servers other such details, please contact your RobusTest administrator.
+
+   Issue: :ref:`unable-to-access-RobusTest-server`
