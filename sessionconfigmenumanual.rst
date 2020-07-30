@@ -75,6 +75,7 @@ This is the vertical menu that you see in the Manual test session. It provides t
    You can share your device screen in two ways:-
 
    a. by sending them a link to your device link by clicking on the 'Copy Share-Link to Clipboard' button
+
    b. by scanning the QR code displayed with a mobile phone
 
    Once your colleagues click on the link you shared or finish scanning the QR code, not only can they see you perform various actions on the device screen, they can also interact with the same device screen through their computer or mobile device. 
@@ -103,18 +104,18 @@ This is the vertical menu that you see in the Manual test session. It provides t
 
    Once integration with the bug tracking software is enabled from the Admin Console, you can start logging bugs.
 
-   While logging the bug, you can choose the the Assignee, the reporter, the type of issue, a summary of the issue and a detailed description. You also have the option to attach the device logs, the ANR log and screenshots as well.
+   While logging the bug, you can choose the Assignee, the reporter, the type of issue, a summary of the issue and a detailed description. You also have the option to attach the device logs, the ANR log and screenshots as well.
 
    At the time of logging of the bug, in addition to the above details, RobusTest will add more information to the ticket pertaining to the app, app version, OS version, device details, project details, etc
 
    **15. Change Wifi**    
 
-   Sometimes you may want your test device to connect to a diffe  rent Wifi network. In such cases, you can use this feature to select the Wifi network of your choice by providing the SSID and Password.
+   Sometimes you may want your test device to connect to a different Wifi network. In such cases, you can use this feature to select the Wifi network of your choice by providing the SSID and Password.
 
    **16. Install Build**
 
-   This option enables you to select and install a build of your choice from the options provided in the drop down. Only builds previously uploaded to your project will be avilable for selection    
+   This option enables you to select and install a build of your choice from the options provided in the drop down. Only builds previously uploaded to your project will be available for selection    
 
    **17. Network Shaping**
 
-   Network Shaping enables you to select a specific kind of network to test your app on. E.g. 2G, 3G, 4G, etc. You are enabled to create an ATC Network profile which simulates charcteristics of the kind of network you choose. You can knowmore about creating ATC profiles in the Admin Console section.
+   Network Shaping enables you to select a specific kind of network to test your app on. E.g. 2G, 3G, 4G, etc. You are enabled to create an ATC Network profile which simulates charcteristics of the kind of network you choose. You can know more about creating ATC profiles in the Admin Console section.

@@ -80,7 +80,7 @@ The following buttons are visible on this menu:
 
 **2. Horizontal menu above each device screen**
 
-This menu is visible above ech device screen in the test session and is specific to that device. The following buttons are visibleon this menu:
+This menu is visible above each device screen in the test session and is specific to that device. The following buttons are visible on this menu:
 
   **1.** :bolditalic:`Switch to Manual mode` - Clicking on this button, opens that specific device in a single-device manual test session. You can always go back to your multiplexing test session by clicking on the '*Switch to Mutliplexing*' button in the manual test session.
 
