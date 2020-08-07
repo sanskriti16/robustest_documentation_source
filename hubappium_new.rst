@@ -26,7 +26,7 @@ The RobusTest project under which you wish to run your tests should be provided 
 
 3. Provide the Access Key
 
-The user is authenticated using the RobusTest Access Key, provided using the **accesskey** desired capability.
+The user is authenticated using the RobusTest Access Key, provided using the **accessKey** desired capability.
 
 4. Provide the platform name
 
