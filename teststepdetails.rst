@@ -66,7 +66,7 @@ The default Xpath created at the time of recording the test step is referred to 
 
 On clicking on the 'Add New Xpath', you can modify the existing Xpath by either:
 
-a. adding more attributes to it (by selecting the checkbox next to the attribute being added); or;
+a. adding more attributes to it (by selecting the checkbox next to the attribute being added); or
 
 b. editing the Xpath manually
 
