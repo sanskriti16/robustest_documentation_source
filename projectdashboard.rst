@@ -74,7 +74,7 @@ Here, a CURL command is provided which enables the user to upload an app build t
 The general format of this command is as follows::
 
 
-   curl -X PUT '<RobusTest URL>/v3/project/<PROJECT IDENTIFIER>/build?accesskey=<USER ACCESS KEY>' -H 'content-Type: multipart/form-data' -F 'build=@<BUILD NAME WITH PATH> -F  buildInfo='{"desc":"<build description>", "label":"<label>","activityClass":"<launch actvity>"}'
+   curl -X PUT '<RobusTest URL>/v3/project/<PROJECT IDENTIFIER>/build?accesskey=<USER ACCESS KEY>' -H 'content-Type: multipart/form-data' -F 'build=@<BUILD NAME WITH PATH>' -F  buildInfo='{"desc":"<build description>", "label":"<label>","activityClass":"<launch actvity>"}'
 
 Let's break down the different components of this command for better understanding:
 
@@ -104,7 +104,7 @@ Let's break down the different components of this command for better understandi
 
 A sample remote build upload command would look as follows::
 
-   curl -X PUT 'http://robustest.this.instance.com:8085/v3/project/5d176ffef0238be8f3b7afa5/build?accesskey=aY33cDmkt7B2nAjxBl6Tp2FWv4' -H 'content-Type: multipart/form-data' -F build=@/username/build/new/latestbuild.apk -F  buildInfo='{"desc":"description from api"}'
+   curl -X PUT 'http://robustest.this.instance.com:8085/v3/project/5d176ffef0238be8f3b7afa5/build?accesskey=aY33cDmkt7B2nAjxBl6Tp2FWv4' -H 'content-Type: multipart/form-data' -F 'build=@/username/build/new/latestbuild.apk' -F  buildInfo='{"desc":"description from api"}'
 
 You can now run the above command directly on the Command Line OR choose to invoke this build-upload API through a programming script in a language of your choice.
 

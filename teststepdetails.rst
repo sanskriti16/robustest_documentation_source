@@ -50,7 +50,7 @@ More details on how to manipulate the user data is available in the :ref:`data-p
 
 **4. Return Data** 
 
-In general, this tab provides info on the position of an element on the device screen. It provides you the top, bottom, left and right bounds as well as the lenth and width of the element.
+In general, this tab provides info on the position of an element on the device screen. It provides you the top, bottom, left and right bounds as well as the length and width of the element.
 
 If the element contains a 'text', the value of the text attribute is displayed.
 
@@ -65,7 +65,9 @@ The xpath of the object or element on which an action was performed is visible o
 The default Xpath created at the time of recording the test step is referred to as the 'Original' xpath.
 
 On clicking on the 'Add New Xpath', you can modify the existing Xpath by either:
-a. adding more attributes to it (by selecting the checkbox next to the attribute being added); or;
+
+a. adding more attributes to it (by selecting the checkbox next to the attribute being added); or
+
 b. editing the Xpath manually
 
 On providing a new name and clicking on the 'Save' button, the modified Xpath is saved. 
