@@ -80,7 +80,7 @@ This is the vertical menu that you see in the Manual test session. It provides t
 
    Once your colleagues click on the link you shared or finish scanning the QR code, not only can they see you perform various actions on the device screen, they can also interact with the same device screen through their computer or mobile device. 
 
-   **12. Connecting to ADB remotely**
+   **12. Connect to ADB remotely**
 
    This feature was developed with the intention to help your dev team.
 
