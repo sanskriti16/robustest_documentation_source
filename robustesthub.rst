@@ -6,7 +6,7 @@ RobusTest Hub
    :hidden:
    
    hubappium_new
-   hubappium
+   hubappium_development
    hubespresso
    hubxcuitest
    hubselenium
@@ -26,7 +26,7 @@ At the end of the run, detailed run reports are also generated
 
 1. :ref:`hub-appium_new`
 
-2. :ref:`hub-appium`
+2. :ref:`hub-appium_development`
 
 3. :ref:`hub-espresso`
 

@@ -1,3 +1,5 @@
+.. _hub-appium_development:
+
 Using RobusTest to find your Element locators
 =============================================
 
