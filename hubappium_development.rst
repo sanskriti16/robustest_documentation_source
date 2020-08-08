@@ -1,7 +1,7 @@
 .. _hub-appium_development:
 
-Using RobusTest to find your Element locators
-=============================================
+Appium Hub to Find Locators
+===========================
 
 When developing your Appium tests, you may want to connect to a device to check the page source and create your element locators.
 You can easily create and connect to an Appium Hub session to inspect your app's screens.

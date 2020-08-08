@@ -1,7 +1,7 @@
 .. _hub-appium_new:
 
-Appium Hub 2.0
-==============
+Appium Hub
+==========
 
 
  .. image:: _static/buildURL.png
