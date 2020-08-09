@@ -1,8 +1,13 @@
 .. _hub-appium_new:
 
-Appium Hub
-==========
+Run Appium Tests
+================
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   
+   hubappium_development
 
  .. image:: _static/buildURL.png
 

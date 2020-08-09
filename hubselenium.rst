@@ -1,7 +1,7 @@
 .. _hub-selenium:
 
-Selenium
-========
+Run Selenium Tests
+==================
 
 .. image:: _static/buildURL.png	
 

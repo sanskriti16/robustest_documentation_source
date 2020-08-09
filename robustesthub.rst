@@ -6,7 +6,6 @@ RobusTest Hub
    :hidden:
    
    hubappium_new
-   hubappium_development
    hubespresso
    hubxcuitest
    hubselenium
