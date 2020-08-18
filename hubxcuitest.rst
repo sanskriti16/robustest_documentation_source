@@ -1,7 +1,7 @@
 .. _hub-xcuitest:
 
-XCUITest
-========
+Run XCUITest Tests
+==================
 
 **1.** Identify the project which you shall use for running your tests. If you do not already have such a project, then you need to first create a project. Once identified, note down the Project ID for the project.
 
