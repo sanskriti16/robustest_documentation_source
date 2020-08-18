@@ -12,7 +12,7 @@ Selenium
 desiredCapabilities={
 "browserName":"[Browser Name]",
 "accessKey" : "[User Access Key]",
-"project": "[Project ID]"
+"projectID": "[Project ID]"
 }
 
 4. Get browser status
