@@ -25,8 +25,6 @@ At the end of the run, detailed run reports are also generated
 
 1. :ref:`hub-appium_new`
 
-2. :ref:`hub-appium_development`
-
 3. :ref:`hub-espresso`
 
 4. :ref:`hub-xcuitest`
