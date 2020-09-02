@@ -46,6 +46,8 @@ Provide the device details using the **deviceID** desired capability.
 
 In addition to the above desired capabilities, you also need to provide the *app* desired capability
 
+If you are running your tests on a build uploaded to RobusTest and would like to see the build details in your report, then also pass the **buildID** desired capability. The buildID is the unique identifier for a build that is uploaded to RobusTest.
+
 **Running tests on mobile browser**
 
 In addition to the above desired capabilities, you also need to provide the **browserName** desired capability.
