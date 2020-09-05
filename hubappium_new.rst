@@ -13,64 +13,57 @@ Run Appium Tests
 
 **Configuration**
 
-With the refreshed version of RobusTest Hub for Appium, you get a cleaner way of running your Appium tests on apps as well as browsers
+With the refreshed version of RobusTest Hub for Appium, you get a cleaner way of running your Appium tests on mobile apps as well as mobile browsers
 
 To run your Appium tests using the new RobusTest Hub for Appium, you need to do the following
 
-1. Provide the RobusTest Hub URL:
+1. Appium server URL - Use the RobusTest Hub URL for your Appium server URL:
 
 This will be of the form 
 
 **http(s)://[RobusTest Device Lab URL]/wd/hub**
 
-Note that this is different from the older Hub which used to run on port 3142 by default
+2. Desired Capabilities
 
-2. Provide the project ID:
+**projectID** - The RobusTest project under which you wish to run your tests should be provided using the **projectID** desired capability.
 
-The RobusTest project under which you wish to run your tests should be provided using the **projectID** desired capability.
+**accessKey** - The user is authenticated using the RobusTest Access Key, provided using the **accessKey** desired capability.
 
-3. Provide the Access Key
+**platformName** - Depending on whether you wish to run your tests on Android or iOS, please select the appropriate platform name, provided using the **platformName** desired capability.
 
-The user is authenticated using the RobusTest Access Key, provided using the **accessKey** desired capability.
-
-4. Provide the platform name
-
-Depending on whether you wish to run your tests on Android or iOS, please select the appropriate platform name, provided using the **platformName** desired capability.
-
-5. Provide the Device
-
-Provide the device details using the **deviceID** desired capability. 
+**deviceID** - Provide the device details using the **deviceID** desired capability. 
 *This is not mandatory in case of running mobile web tests as the system will automatically pick up a device based on desired capabilities mentioned*.
 
-**Running tests on Mobile App**
+*app* - In case you are running your tests on a mobile app, you also need to provide the *app* desired capability
 
-In addition to the above desired capabilities, you also need to provide the *app* desired capability
+**buildID** - If you are running your tests on a build uploaded to RobusTest and want to see the build details in your report, pass the **buildID** desired capability. The buildID is the unique identifier for a build that is uploaded to RobusTest.
 
-If you are running your tests on a build uploaded to RobusTest and would like to see the build details in your report, then also pass the **buildID** desired capability. The buildID is the unique identifier for a build that is uploaded to RobusTest.
+**browserName** - In case you are running your tests on a mobile browser, provide the **browserName** desired capability.
 
-**Running tests on mobile browser**
+**adbExecTimeout** - In case you are running your tests on a mobile browser, it is highly recommended to add the **adbExecTimeout** desired capability and give it a high value of say 2000000. This ensures that tests do not error due to timeout.
 
-In addition to the above desired capabilities, you also need to provide the **browserName** desired capability.
+**Configuring Appium test reports**
 
-It is highly recommended to also add the **adbExecTimeout** desired capability and give it a high value of say 2000000. This ensures that tests do not timeout.
+*Grouping multiple Appium test sessions into a single job*
 
-**Grouping multiple Appium test sessions into a single job**
+When you run an Appium test job, the job may comprise many Appium sessions. For easier reporting and management, it is possible to group all the Appium sessions created as part of a job. Use the same value for  **robustestJobIdentifier** desired capability for Appium sessions belonging to the same job. Any appium session with the same value for robustestJobIdentifier, will be grouped together.
 
-When you run an Appium job on the RobusTest Hub, it may contain many Appium sessions. Fo you to group all of these sessions together, as part of a singel test run or a job, you can use the **robustestJobIdentifier** desired capability. Any appium session with the same value for robustestJobIdentifier, will be grouped together. Therefore, it is important to use it properly.
+*Naming your Appium sessions*
 
-**Getting the RobusTest test session ID**
+Many automation frameworks are designed in such a way that they create a new Appium session for every test case. To be able to read such reports easily in RobusTest, user can use the **robustestSessionIdentifier**. This desired capability is meant to be unique for every Appium session within a job.
 
-Once you start your Appium tests, you will want to see details about your Appium session. Details of your Appium session can be retrieved using the RobusTest Session ID which gets created when you try to start an Appium session on RobusTest. You can get the RobusTest Session ID in two ways
+**Retrieving RobusTest Test Session ID**
 
-1. By specifying a unique identifier **robustestSessionIdentifier** with your test session - The advantage of using this identifier to get the RobusTest session ID is that, even if your Appium session does not get created due to various reasons, you will have the RobusTest session ID which will help you access the appium log and other details. The identifier will have to passed as a desired capability when starting your Appium session.
+Once your Appium tests starts, you can access details about your Appium session using the unique RobusTest Session ID. This ID is created when user tries to start an Appium session on RobusTest. RobusTest Session ID can we accessed in two ways
 
-To retrieve the RobusTest session ID using the **robustestSessionIdentifier**, use the following API
+1. **robustestSessionIdentifier** - To retrieve the RobusTest session ID using the **robustestSessionIdentifier**, use the following API
 
 **GET /v3/hub/sessionIdentifer/{robustestSessionIdentifer}**
 
-2. By using the Appium session ID that is created when an Appium session starts. When using this method, you will be able to get the RobusTest Session ID only when you have a valid Appium session ID.
+The advantage of using the **robustestSessionIdentifier** to retrieve the RobusTest session ID is that even if the Appium session does not get created, the RobusTest session ID will help in accessing the appium log and other details. As mentioned earlier, the **robustestSessionIdentifier** will have to be passed as a desired capability.
 
-To retrieve the RobusTest session ID using the **robustestSessionIdentifier** use the following API
+2. Appium Session ID - To retrieve the RobusTest session ID using the **robustestSessionIdentifier** use the following API
 
 **GET /v3/hub/session/{Appium Session ID}**
 
+When using this method, user can get the RobusTest Session ID only when you have a valid Appium session ID.
