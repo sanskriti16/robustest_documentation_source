@@ -11,7 +11,7 @@ Run Selenium Tests
 
 ::
 
-desiredCapabilities={
+{
 "browserName":"[Browser Name]",
 "accessKey" : "[User Access Key]",
 "projectID": "[Project ID]"
