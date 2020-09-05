@@ -11,11 +11,11 @@ Run Selenium Tests
 
 ::
 
-{
-"browserName":"[Browser Name]",
-"accessKey" : "[User Access Key]",
-"projectID": "[Project ID]"
-}
+	{
+	  "browserName":"[Browser Name]",
+	  "accessKey" : "[User Access Key]",
+	  "projectID": "[Project ID]"
+	}
 
 4. Get browser status
 
