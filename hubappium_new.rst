@@ -34,7 +34,7 @@ This will be of the form
 **deviceID** - Provide the device details using the **deviceID** desired capability. 
 *This is not mandatory in case of running mobile web tests as the system will automatically pick up a device based on desired capabilities mentioned*.
 
-*app* - In case you are running your tests on a mobile app, you also need to provide the *app* desired capability
+**app** - In case you are running your tests on a mobile app, you also need to provide the *app* desired capability
 
 **buildID** - If you are running your tests on a build uploaded to RobusTest and want to see the build details in your report, pass the **buildID** desired capability. The buildID is the unique identifier for a build that is uploaded to RobusTest.
 
@@ -62,7 +62,7 @@ Once your Appium tests starts, you can access details about your Appium session 
 
 The advantage of using the **robustestSessionIdentifier** to retrieve the RobusTest session ID is that even if the Appium session does not get created, the RobusTest session ID will help in accessing the appium log and other details. As mentioned earlier, the **robustestSessionIdentifier** will have to be passed as a desired capability.
 
-2. Appium Session ID - To retrieve the RobusTest session ID using the **robustestSessionIdentifier** use the following API
+2. Appium Session ID - To retrieve the RobusTest session ID using the Appium session ID use the following API
 
 **GET /v3/hub/session/{Appium Session ID}**
 
