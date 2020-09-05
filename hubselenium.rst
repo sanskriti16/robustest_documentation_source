@@ -9,6 +9,8 @@ Run Selenium Tests
 2. Hub url - point to nerve server 
 3. Desired capabilities will look as below
 
+::
+
 desiredCapabilities={
 "browserName":"[Browser Name]",
 "accessKey" : "[User Access Key]",
@@ -17,10 +19,7 @@ desiredCapabilities={
 
 4. Get browser status
 
-
-URL:
-
-http://[DEVICE LAB URL]/grid/browsers
-
 HTTP Method: GET
+
+URL: http://[DEVICE LAB URL]/grid/browsers
 

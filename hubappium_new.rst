@@ -62,7 +62,7 @@ Once your Appium tests starts, you can access details about your Appium session 
 
 The advantage of using the **robustestSessionIdentifier** to retrieve the RobusTest session ID is that even if the Appium session does not get created, the RobusTest session ID will help in accessing the appium log and other details. As mentioned earlier, the **robustestSessionIdentifier** will have to be passed as a desired capability.
 
-2. Appium Session ID - To retrieve the RobusTest session ID using the Appium session ID use the following API
+2. **Appium Session ID** - To retrieve the RobusTest session ID using the Appium session ID use the following API
 
 **GET /v3/hub/session/{Appium Session ID}**
 
