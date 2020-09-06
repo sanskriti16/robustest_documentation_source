@@ -42,7 +42,7 @@ This will be of the form
 
 **adbExecTimeout** - In case you are running your tests on a mobile browser, it is highly recommended to add the **adbExecTimeout** desired capability and give it a high value of say 2000000. This ensures that tests do not error due to timeout.
 
-**Configuring Appium test reports**
+**Configuring Appium tests**
 
 *Grouping multiple Appium test sessions into a single job*
 
@@ -51,6 +51,14 @@ When you run an Appium test job, the job may comprise many Appium sessions. For 
 *Naming your Appium sessions*
 
 Many automation frameworks are designed in such a way that they create a new Appium session for every test case. To be able to read such reports easily in RobusTest, user can use the **robustestSessionIdentifier**. This desired capability is meant to be unique for every Appium session within a job.
+
+*Setting timeouts for Appium job and Appium sessions*
+
+**runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. The attributes currently supported are
+
+a. runTimeout - this value (in secs) can be used to specify the max amount of time a job can run before it is closed by the system on account of exceeding the value set for runtTimeout.
+
+b. idleTimeout - this value (in secs) can be used to specify the amount of time a job should be idle before the job can be closed by the system
 
 **Retrieving RobusTest Test Session ID**
 
