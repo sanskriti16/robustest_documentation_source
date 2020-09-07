@@ -32,7 +32,7 @@ This will be of the form
 **platformName** - Depending on whether you wish to run your tests on Android or iOS, please select the appropriate platform name, provided using the **platformName** desired capability.
 
 **deviceID** - Provide the device details using the **deviceID** desired capability. 
-*This is not mandatory in case of running mobile web tests as the system will automatically pick up a device based on desired capabilities mentioned*.
+*This is not mandatory in case of running mobile web tests as the system will automatically pick up a device based on desired capabilities mentioned. If you do provide deviceID for your mobile web tests, then the system will try to allocate the specific device requested for and fail if the device is not available*
 
 **app** - In case you are running your tests on a mobile app, you also need to provide the *app* desired capability
 
