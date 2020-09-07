@@ -56,9 +56,11 @@ Many automation frameworks are designed in such a way that they create a new App
 
 **runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. The attributes currently supported are
 
-a. runTimeout - this value (in secs) can be used to specify the max amount of time a job can run before it is closed by the system on account of exceeding the value set for runtTimeout.
+a. *runTimeout* - this value (in secs) can be used to specify the max amount of time a job can run before it is closed by the system on account of exceeding the value set for runTimeout.
 
-b. idleTimeout - this value (in secs) can be used to specify the amount of time a job should be idle before the job can be closed by the system
+b. *idleTimeout* - this value (in secs) can be used to specify the amount of time a job can be idle before the job can be closed by the system
+
+c. *testcaseTimeout* - this value (in secs) can be used to specify the maximum run time of a test case. This value will be used by the system only when Advanced Integration with RobusTest Appium Hub is done.
 
 **Retrieving RobusTest Test Session ID**
 
