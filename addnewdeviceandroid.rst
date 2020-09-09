@@ -96,3 +96,8 @@ d. Unknown Sources - TURN ON
 **Additional Steps for RealMe devices:**
 
 a. In 'Developer Options', enable the setting 'Disable Permission Monitoring'
+
+**Additional Steps for Vivo devices:**
+
+a. Go to 'Settings' -> 'Battery' -> 'High Background Power Consumption'
+b. To the 'Allow' list, add *io.appium.uiautomator2.server*
