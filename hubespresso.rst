@@ -1,7 +1,7 @@
 .. _hub-espresso:
 
-Espresso
-========
+Run Espresso Tests
+==================
 
 **Introduction to Espresso**
 
