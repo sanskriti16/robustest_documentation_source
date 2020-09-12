@@ -33,6 +33,7 @@ Contents:
    continuousintegration
    bugtrackerintegration
    otherusefulinfo
+   robustestconnect
    troubleshooting
 
 
