@@ -1,6 +1,6 @@
 .._robustest_connect:
 
-RobusTest Connect - Run local, track global
+RobusTest Connect - Run local, test global
 ===========================================
 
 RobusTest Connect enables you to use the RobusTest platform to test on devices that are connected locally, i.e, on your own computer.
