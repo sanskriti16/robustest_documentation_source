@@ -7,4 +7,6 @@ Adding new devices to RobusTest - iOS
 
 2. On the iOS device, go to Settings -> Safari -> Advanced and enable the option named '*Web Inspector*'
 
-3. Ensure that the device is added to your developer certificate
+3. In Settings -> General -> Display & Brightness, set the 'Auto-Lock' option to 'Never'.
+
+4. Ensure that the device is added to your developer certificate
