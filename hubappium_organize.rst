@@ -1,4 +1,4 @@
-.. _hub-appium_configure:
+.. _hub-appium_organize:
 
 Organize Appium Sessions Into Test Cases
 ========================================
