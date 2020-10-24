@@ -11,7 +11,7 @@ Test run data can be retrieved from RobusTest using two different ways
 
 1. RobusTest Test Case (RECOMMENDED)
 
-To enable seamless reporting in RobusTest, it is recommended to create a test case in RobusTest for every Appium test session that is completed. To achieve this, the appium test creation API needs to be called after an Appium test session is complete. Details of the API can be found at http://api.robustest.com/#tag/hub-appium/paths/~1v3~1appium~1testcase~1{appium_session_id}/post
+To enable seamless reporting in RobusTest, it is recommended to create a test case in RobusTest for every Appium test session that is completed. To achieve this, the appium test creation API needs to be called after an Appium test session is complete. Details of the API can be found at the following `link <http://api.robustest.com/#tag/hub-appium/paths/~1v3~1appium~1testcase~1{appium_session_id}/post>`_
 
 By providing the Appium session ID, user can assign name, status, desc and  message for a test case. If status is not provided in the API call, then the test case is marked as fail. 
 
