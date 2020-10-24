@@ -6,14 +6,6 @@ Run Appium Tests
 .. toctree::
    :maxdepth: 2
    :hidden:
-   
-   hubappium_development
-
- .. image:: _static/buildURL.png
-
-**Configuration**
-
-With the refreshed version of RobusTest Hub for Appium, you get a cleaner way of running your Appium tests on mobile apps as well as mobile browsers
 
 To run your Appium tests using the new RobusTest Hub for Appium, you need to do the following
 
@@ -42,17 +34,8 @@ This will be of the form
 
 **adbExecTimeout** - In case you are running your tests on a mobile browser, it is highly recommended to add the **adbExecTimeout** desired capability and give it a high value of say 2000000. This ensures that tests do not error due to timeout.
 
-**Configuring Appium tests**
 
-*Grouping multiple Appium test sessions into a single job*
-
-When you run an Appium test job, the job may comprise many Appium sessions. For easier reporting and management, it is possible to group all the Appium sessions created as part of a job. Use the same value for  **robustestJobIdentifier** desired capability for Appium sessions belonging to the same job. Any appium session with the same value for robustestJobIdentifier, will be grouped together.
-
-*Naming your Appium sessions*
-
-Many automation frameworks are designed in such a way that they create a new Appium session for every test case. To be able to read such reports easily in RobusTest, user can use the **robustestSessionIdentifier**. This desired capability is meant to be unique for every Appium session within a job.
-
-*Setting timeouts for Appium job and Appium sessions*
+3. Setting Timeout Values
 
 **runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. The attributes currently supported are
 
@@ -61,19 +44,3 @@ a. *runTimeout* - this value (in secs) can be used to specify the max amount of 
 b. *idleTimeout* - this value (in secs) can be used to specify the amount of time a job can be idle before the job can be closed by the system
 
 c. *testcaseTimeout* - this value (in secs) can be used to specify the maximum run time of a test case. This value will be used by the system only when Advanced Integration with RobusTest Appium Hub is done.
-
-**Retrieving RobusTest Test Session ID**
-
-Once your Appium tests starts, you can access details about your Appium session using the unique RobusTest Session ID. This ID is created when user tries to start an Appium session on RobusTest. RobusTest Session ID can we accessed in two ways
-
-1. **robustestSessionIdentifier** - To retrieve the RobusTest session ID using the **robustestSessionIdentifier**, use the following API
-
-**GET /v3/hub/sessionIdentifer/{robustestSessionIdentifer}**
-
-The advantage of using the **robustestSessionIdentifier** to retrieve the RobusTest session ID is that even if the Appium session does not get created, the RobusTest session ID will help in accessing the appium log and other details. As mentioned earlier, the **robustestSessionIdentifier** will have to be passed as a desired capability.
-
-2. **Appium Session ID** - To retrieve the RobusTest session ID using the Appium session ID use the following API
-
-**GET /v3/hub/session/{Appium Session ID}**
-
-When using this method, user can get the RobusTest Session ID only when you have a valid Appium session ID.
