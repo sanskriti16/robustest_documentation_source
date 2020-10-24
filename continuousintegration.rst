@@ -1,5 +1,5 @@
-Continuous Integration with RobusTest
-=====================================
+Continuous Integration
+======================
 
 
 1. Remote uploading a build

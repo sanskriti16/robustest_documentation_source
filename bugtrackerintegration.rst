@@ -1,3 +1,3 @@
-Integrating Bug Tracker with Robustest
-======================================
+Integrating Bug Tracker
+=======================
 
