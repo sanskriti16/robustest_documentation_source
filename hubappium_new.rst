@@ -35,9 +35,11 @@ This will be of the form
 **adbExecTimeout** - In case you are running your tests on a mobile browser, it is highly recommended to add the **adbExecTimeout** desired capability and give it a high value of say 2000000. This ensures that tests do not error due to timeout.
 
 
+**runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. 
+
 3. Setting Timeout Values
 
-**runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. The attributes currently supported are
+User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. The attributes currently supported are
 
 a. *runTimeout* - this value (in secs) can be used to specify the max amount of time a job can run before it is closed by the system on account of exceeding the value set for runTimeout.
 

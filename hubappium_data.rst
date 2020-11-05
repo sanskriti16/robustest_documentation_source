@@ -33,7 +33,7 @@ If the test case has run properly and has been ended properly in the test code, 
 
 Get the RobusTest Job ID by invoking the following API and extracting the value of the "_id" attribute
 
-GET /v3/job/{robustest job identifier}
+GET /v3/job/{robustestJobIdentifier}
 
 The list of all test case entries for the job can be retrieved using the following API
 
@@ -55,7 +55,7 @@ GET /v3/hub/session/{Appium Session ID}
 
 A. Get the RobusTest Job ID by invoking the following API and extracting the value of the "_id" attribute
 
-GET /v3/job/{robustest job identifier}
+GET /v3/job/{robustestJobIdentifier}
 
 B. Using the Job ID, get all the test sessions for the job
 
