@@ -1,5 +1,8 @@
 .. _selecting-device-groups-for-job:
 
+Using Device Groups to configure device selection for job creation API
+======================================================================
+
 You can use the Groups feature to enable selection of devices from a specific set or sets of devices.
 
 To be able to use this feature, you need to ensure there is at least one group created and your project and desired devices are part of that group.
