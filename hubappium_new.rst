@@ -44,9 +44,17 @@ To run your Appium tests using the new RobusTest Hub for Appium, you need to do 
 - **adbExecTimeout** - In case you are running your tests on a mobile browser, it is highly recommended to add the :bolditalic:`adbExecTimeout` desired capability and give it a high value of say 2000000. This ensures that tests do not error due to timeout.
 
 
+<<<<<<< HEAD
 **3. Setting Timeout Values**
 
 * **runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the :bolditalic:`runSetting` desired capability to configure various aspects of the Appium job. The attributes currently supported are:
+=======
+**runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. 
+
+3. Setting Timeout Values
+
+User can create a Run Setting and provide the Run Setting ID as the value of the **runSetting** desired capability to configure various aspects of the Appium job. The attributes currently supported are
+>>>>>>> 7eb42877f0704f448d5505ebaaacf8675063e0b6
 
   - :bolditalic:`runTimeout` - this value (in secs) can be used to specify the max amount of time a job can run before it is closed by the system on account of exceeding the value set for runTimeout.
 
