@@ -18,7 +18,7 @@ Data for an Appium test session can be retrieved at the end of every session or 
 
 Test run data can be retrieved from RobusTest using two different ways:
 
-**1. By using a RobusTest Test Case** (:bolditalic:`RECOMMENDED`)
+**1. By using a RobusTest Test Case** (*RECOMMENDED*)
 
 * To enable seamless reporting in RobusTest, it is recommended to create a test case in RobusTest for every Appium test session that is completed. 
 
@@ -58,22 +58,22 @@ Test run data can be retrieved from RobusTest using two different ways:
 
 In case, user does not wish to create a test case entry in RobusTest, data can still be retrieved by the following ways:
 
-:bolditalic:`1. Fetch data right after the completion of the appium test session`
+     *1. Fetch data right after the completion of the appium test session*
 
-* Use any of the following APIs:
+     * Use any of the following APIs:
 
-  **GET /v3/hub/sessionIdentifer/{robustestSessionIdentifier}**
+       **GET /v3/hub/sessionIdentifer/{robustestSessionIdentifier}**
 
-  **GET /v3/hub/session/{Appium Session ID}**
+       **GET /v3/hub/session/{Appium Session ID}**
 
-:bolditalic:`2. Fetch data after the completion of the appium job`
+     *2. Fetch data after the completion of the appium job*
 
-  * Get the RobusTest Job ID by invoking the following API and extracting the value of the ":bolditalic:`_id`" attribute:
+     * Get the RobusTest Job ID by invoking the following API and extracting the value of the "**_id**" attribute:
 
-     * **GET /v3/job/{robustest job identifier}**
+       * **GET /v3/job/{robustest job identifier}**
 
-  - Using the Job ID, get all the test sessions for the job:
+     - Using the Job ID, get all the test sessions for the job:
 
-     * **GET /v3/job/{RobusTest Job ID}/testsessions**
+       * **GET /v3/job/{RobusTest Job ID}/testsessions**
 
-  * In the response of the API request, there will be an array of objects - each object being a test session entry. Each entry will contain all the details related to the session e.g. robustestSessionIdentifier and Duration
+     * In the response of the API request, there will be an array of objects - each object being a test session entry. Each entry will contain all the details related to the session e.g. robustestSessionIdentifier and Duration
