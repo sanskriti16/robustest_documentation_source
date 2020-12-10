@@ -48,11 +48,7 @@ Test run data can be retrieved from RobusTest using two different ways:
 
    * Get the RobusTest Job ID by invoking the following API and extracting the value of the "_id" attribute:
 
-<<<<<<< HEAD
      **GET /v3/job/{robustest job identifier}**
-=======
-GET /v3/job/{robustestJobIdentifier}
->>>>>>> 7eb42877f0704f448d5505ebaaacf8675063e0b6
 
    * The list of all test case entries for the job can be retrieved using the following API:
 
@@ -74,11 +70,7 @@ In case, user does not wish to create a test case entry in RobusTest, data can s
 
   * Get the RobusTest Job ID by invoking the following API and extracting the value of the ":bolditalic:`_id`" attribute:
 
-<<<<<<< HEAD
      * **GET /v3/job/{robustest job identifier}**
-=======
-GET /v3/job/{robustestJobIdentifier}
->>>>>>> 7eb42877f0704f448d5505ebaaacf8675063e0b6
 
   - Using the Job ID, get all the test sessions for the job:
 

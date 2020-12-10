@@ -30,7 +30,7 @@ To be able to read such reports easily in RobusTest, user can use the **robustes
 
 - RobusTest Session ID can we accessed in two ways:
 
-  a. **By using robustestSessionIdentifier**  
+  **a.** **By using robustestSessionIdentifier**  
 
      To retrieve the RobusTest session ID using the **robustestSessionIdentifier**, use the following API:
 
@@ -40,7 +40,7 @@ To be able to read such reports easily in RobusTest, user can use the **robustes
 
      As mentioned earlier, the **robustestSessionIdentifier** will have to be passed as a desired capability.
 
-  b. **By using the Appium Session ID**: 
+  **b.** **By using the Appium Session ID**: 
 
      To retrieve the RobusTest session ID using the Appium session ID use the following API:
 
