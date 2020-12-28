@@ -23,7 +23,8 @@ In order to avoid the same, you need to disable the following pop-ups:
 **Disable iOS Software Update Notification**
 
   1. Go to *Settings* -> *iTunes & App Store*
-  2. Click on the *Auto-Update* toggle button to disable auto-updates 
+  2. Click on the toggle button to disable *automatic app updates*
+  3. Click on the toggle button to disable *automatic downloads*  
 
 **Delete existing software downloads**
 
