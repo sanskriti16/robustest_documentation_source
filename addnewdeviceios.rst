@@ -19,15 +19,6 @@ Interaction with the iOS device screen in a Manual test session sometimes get bl
 
 In order to avoid the same, you need to disable the following pop-ups:
 
-**Disable iMessage Notification**
-
-  1. On your iOS device, go to *Settings* -> *Messages*
-  2. Disable *iMessage* by clicking on the toggle 
-
-**Disable FaceTime Notification**
-
-  1. On your iOS device, go to *Settings* -> *FaceTime*
-  2. Disable *Facetime* by clicking on the toggle
 
 **Disable iOS Software Update Notification**
 
@@ -43,3 +34,13 @@ In order to avoid the same, you need to disable the following pop-ups:
   3. On scrolling down, you will see a list of apps and the amount of storage that each of them are using. In this list, look for the latest iOS update. It would be in the format 'iOS 13.1.1' or 'iOS 14 Beta 2', etc.
   4. Tap on the update.
   5. Now click on the *"Delete Update"* option and confirm. The downloaded update is now deleted.
+
+**Disable iMessage Notification**
+
+  1. On your iOS device, go to *Settings* -> *Messages*
+  2. Disable *iMessage* by clicking on the toggle 
+
+**Disable FaceTime Notification**
+
+  1. On your iOS device, go to *Settings* -> *FaceTime*
+  2. Disable *Facetime* by clicking on the toggle
