@@ -6,13 +6,13 @@ Adding new devices to RobusTest - iOS
 
 **Setting up your iOS device**
 
-  1. On connecting your iOS device to the RobusTest server, you will see a pop-up asking you if you would like to trust the server. Click on the 'Trust' button.
+  1. On connecting your iOS device to the RobusTest server, you will see a pop-up asking you if you would like to trust the server. Click on the '*Trust*' button.
 
-  2. On the iOS device, go to Settings -> Safari -> Advanced and enable the option named '*Web Inspector*'
+  2. On the iOS device, go to *Settings* -> *Safari* -> *Advanced* and enable the option named '*Web Inspector*'
 
-  3. In Settings -> General -> Display & Brightness, set the 'Auto-Lock' option to 'Never'.
+  3. In *Settings* -> *General* -> *Display & Brightness*, set the '*Auto-Lock*' option to '*Never*'.
 
-  4. Ensure that the device is added to your developer certificate
+  4. Ensure that the device is added to your developer certificate.
 
 
 Interaction with the iOS device screen in a Manual test session sometimes get blocked on account of certain notification pop-ups that appear on the iOS device. 
@@ -36,7 +36,7 @@ In order to avoid the same, you need to disable the following pop-ups:
 
 **Delete existing software downloads**
 
-  Sometimes, an update has already been downloaded onto your iOS device. This results in the software update notification coming up even if you have disabled the *Auto-Update* option. To prevent such pop-ups do the following:
+  Sometimes, an update has already been downloaded onto your iOS device. This results in the software update notification coming up even if you have disabled the *Auto-Update* option. To prevent such pop-ups, do the following:
 
   1. On your iOS device, go to *Settings* -> *General*
   2. Tap on *iPhone Storage* (for iPhones) or *iPad Storage* (for iPads), depending on the type of iOS device that you are using
