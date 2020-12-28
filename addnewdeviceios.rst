@@ -19,7 +19,7 @@ Interaction with the iOS device screen in a Manual test session sometimes get bl
 
 In order to avoid the same, you need to disable the following pop-ups:
 
-**Disble iMessage Notification**
+**Disable iMessage Notification**
 
   1. On your iOS device, go to *Settings* -> *Messages*
   2. Disable *iMessage* by clicking on the toggle 
