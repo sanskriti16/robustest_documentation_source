@@ -40,6 +40,6 @@ In order to avoid the same, you need to disable the following pop-ups:
 
   1. On your iOS device, go to *Settings* -> *General*
   2. Tap on *iPhone Storage* (for iPhones) or *iPad Storage* (for iPads), depending on the type of iOS device that you are using
-  3. On scrolling down, you will see a list of apps and the amount of storage that each of them are using. In this list, look for the latest iOS update. It would be in the format *'iOS 13.1.1' or 'iOS 14 Beta 2', etc.
+  3. On scrolling down, you will see a list of apps and the amount of storage that each of them are using. In this list, look for the latest iOS update. It would be in the format 'iOS 13.1.1' or 'iOS 14 Beta 2', etc.
   4. Tap on the update.
   5. Now click on the *"Delete Update"* option and confirm. The downloaded update is now deleted.
