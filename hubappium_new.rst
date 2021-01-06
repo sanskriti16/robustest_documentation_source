@@ -26,18 +26,18 @@ All RobusTest specific desired capabilities should be provided by appending 'rob
 
 **2. Desired Capabilities**
 
-**deviceID** - Provide the device details using the **robustest.deviceID** desired capability. 
+**robustest.deviceID** - Provide the device details using the **robustest.deviceID** desired capability. 
 *This is not mandatory in case of running mobile web tests as the system will automatically pick up a device based on desired capabilities mentioned. If you do provide deviceID for your mobile web tests, then the system will try to allocate the specific device requested for and fail if the device is not available*
 
-* **projectID** - The RobusTest project under which you wish to run your tests should be provided using the *projectID* desired capability.
+* **robustest.projectID** - The RobusTest project under which you wish to run your tests should be provided using the *robustest.projectID* desired capability.
 
-- **accessKey** - The user is authenticated using the RobusTest Access Key, provided using the *accessKey* desired capability.
+- **robustest.accessKey** - The user is authenticated using the RobusTest Access Key, provided using the *robustest.accessKey* desired capability.
 
 * **platformName** - Depending on whether you wish to run your tests on Android or iOS, please select the appropriate platform name, provided using the *platformName* desired capability.
 
-* **app** - In case you are running your tests on a mobile app, you also need to provide the *app* desired capability
+* **app** - In case you are running your tests on a mobile app, you also need to provide the *app* desired capability. This can be a local file or a remote file.
 
-- **buildID** - If you are running your tests on a build uploaded to RobusTest and want to see the build details in your report, pass the *buildID* desired capability. The buildID is the unique identifier for a build that is uploaded to RobusTest.
+- **robustest.buildID** - If you are running your tests on a build uploaded to RobusTest and want to see the build details in your report, pass the *robustest.buildID* desired capability. The buildID is the unique identifier for a build that is uploaded to RobusTest.
 
 * **browserName** - In case you are running your tests on a mobile browser, provide the *browserName* desired capability.
 
@@ -46,7 +46,7 @@ All RobusTest specific desired capabilities should be provided by appending 'rob
 
 **3. Setting Timeout Values**
 
-* **runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the *runSetting* desired capability to configure various aspects of the Appium job. The attributes currently supported are:
+* **robustest.runSetting** - User can create a Run Setting and provide the Run Setting ID as the value of the *robustest.runSetting* desired capability to configure various aspects of the Appium job. The attributes currently supported are:
 
   - *runTimeout* - this value (in secs) can be used to specify the max amount of time a job can run before it is closed by the system on account of exceeding the value set for runTimeout.
 
@@ -56,4 +56,4 @@ All RobusTest specific desired capabilities should be provided by appending 'rob
 
 4. Additional custom desired capabilities
 
-a. *robustest.fallbackScreenshotMode* - this desired capability is specific to iOS test sessions. To ensure a higher success rate of screenshtos, user can use the **robustest.fallbackScreenshotMode** desired capability. Valid values are i. idevicescreenshot ii. appium. If this desired capability is not used, fallback method will not be employed to take a screenshot in case the default screnenshot method does not work.
+a. **robustest.fallbackScreenshotMode** - this desired capability is specific to iOS test sessions. To ensure a higher success rate of screenshtos, user can use the *robustest.fallbackScreenshotMode* desired capability. Valid values are i. idevicescreenshot ii. appium. If this desired capability is not used, fallback method will not be employed to take a screenshot in case the default screnenshot method does not work.
