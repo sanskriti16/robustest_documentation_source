@@ -36,6 +36,8 @@ B. Proxy server port - 8888
  
 Once you are start running your tests, the network logs captured by mitmproxy will be stored in RobusTest and are accessible in the following ways
 
+**/v3/testsession/{testsessionID}/mitmproxy**
+
 **/v3/mitmproxy/testsession/{testsession ID}**
 
 **/v3/mitmproxy/seleniumSessionID/{appium/selenium sessionID}**
