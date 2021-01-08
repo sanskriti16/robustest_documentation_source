@@ -38,6 +38,14 @@ Once you are start running your tests, the network logs captured by mitmproxy wi
 
 **/v3/testsession/{testsessionID}/mitmproxy**
 
+**/v3/appium/{appium_session_id}/mitmproxy**
+
+**/v3/result/{result_id}/mitmproxy**
+
+
+Deprecated API routes
+
+
 **/v3/mitmproxy/testsession/{testsession ID}**
 
 **/v3/mitmproxy/seleniumSessionID/{appium/selenium sessionID}**
