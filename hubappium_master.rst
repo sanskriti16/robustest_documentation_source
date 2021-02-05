@@ -14,3 +14,4 @@ With the refreshed version of RobusTest Hub for Appium, you get a cleaner way of
    hubappium_organize
    hubappium_data
    hubappium_development
+   hubappium_unity
