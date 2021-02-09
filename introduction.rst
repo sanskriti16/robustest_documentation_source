@@ -3,7 +3,7 @@ Introduction
 
 RobusTest is the app testing platform for all things mobile. Internally, we like to call it the Swiss Knife for Mobile App Testing. 
 
-RobusTest is designed to be a one stop platform for everyone involved in creating a mobile appication - right from business stakeholders who need to see what their application looks like, to developers who need to run some quick checks to testers who need to test the app extensively using manual and automated methods. Some important features of RobusTest are
+RobusTest is designed to be a one stop platform for everyone involved in creating a mobile application - right from business stakeholders who need to see what their application looks like, to developers who need to run some quick checks to testers who need to test the app extensively using manual and automated methods. Some important features of RobusTest are
 
 * Testing on real devices
 
