@@ -23,7 +23,7 @@ iii. Scroll to the bottom where there is a section for HTTP Proxy.
 iv. Select Auto from this section.
 v. In the URL field enter the value 
 
-http://{RobusTest_URL}/tunnelConfiguration
+http://{RobusTest_URL}/tunnelConf
 
 2. On the machine from which you want all requests to pass through, run the following command
 
