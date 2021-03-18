@@ -43,6 +43,8 @@ All RobusTest specific desired capabilities should be provided by appending 'rob
 
 - **adbExecTimeout** - In case you are running your tests on a mobile browser, it is highly recommended to add the *adbExecTimeout* desired capability and give it a high value of say 2000000. This ensures that tests do not error due to timeout.
 
+- *robustest.testcaseName* - To create a test case from an appium test session, you need to direct the system to do so. This can be done in two ways. Either by giving the desired capability as mentioned here or by making an API based request to the device lab. Details for the API are available at http://api.robustest.com/#tag/appium/paths/~1v3~1appium~1{appium_session_id}~1testcase/post
+
 
 **3. Setting Timeout Values**
 
