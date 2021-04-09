@@ -24,6 +24,7 @@ The Project Dashboard constitutes of the following 4 sections:
 2. Team
 3. Upload Build - Remote
 4. Settings
+5. Group
 
 **1. Builds**
 
@@ -79,8 +80,8 @@ The general format of this command is as follows::
 Let's break down the different components of this command for better understanding:
 
 * **RobusTest URL**: This refers to the URL that you use to access the RobusTest platform. It would be of the form *http://'<RobusTest IP>'* or *http://'<RobusTest domain>'* E.g. http://robustest.this.instance.com:8085
-  |br|
-* **PROJECT IDENTIFIER**: The 'Project Identifier' is how we identify the project to which we want to upload the new app build. This can be obatined as follows:
+
+* **Project Identifier**: The 'Project Identifier' is how we identify the project to which we want to upload the new app build. This can be obatined as follows:
   
   * On RobusTest, go to the Project Dashboard of the project to which the build is to be uploaded
 
@@ -90,7 +91,7 @@ Let's break down the different components of this command for better understandi
 
   * E.g. if the URL says *http://robustest.this.intance.com:8085/#/project/5d176ffef0238be8f3b7afa5/dashboard* , then, the value *5d176ffef0238be8f3b7afa5* above, is your project ID
 
-* **USER ACCESS KEY**: Each user has a unique User Access Key associated with their profile on RobusTest. 
+* **User Access Key**: Each user has a unique User Access Key associated with their profile on RobusTest. 
 
   By default, the user access key will be populated in the 'Remote build upload' command provided on the Project Dashboard. All builds will be uploaded using the RobusTest ID of the team member whose access key is being used.
 
@@ -98,7 +99,7 @@ Let's break down the different components of this command for better understandi
 
   Please have a look at the :ref:`user-profile` page for more details on how to obtain the *User Access Key*. 
 
-* **BUILD NAME WITH PATH**: The path to the location from where the build can be picked is specified here. The app build present in the location  or path mentioned in the command is uploaded to the project that is identified by the Project Idenitifier.
+* **Build Name With Path**: The path to the location from where the build can be picked is specified here. The app build present in the location  or path mentioned in the command is uploaded to the project that is identified by the Project Idenitifier.
 
 * **buildINFO section**: This section is used to provide additional details about the build such as description, label or launch activity. It is not mandatory.
 

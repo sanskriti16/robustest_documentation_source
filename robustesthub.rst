@@ -30,3 +30,5 @@ At the end of the run, detailed run reports are also generated
 3. :ref:`hub-xcuitest`
 
 4. :ref:`hub-selenium`
+
+5. :ref:`hub-api`
