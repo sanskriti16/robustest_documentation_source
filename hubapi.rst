@@ -12,7 +12,7 @@ Run API tests using Karate
 
 Karate is a test automation framework that can be used to perform API testing.
 
-If your organisation uses Karate to test your APIs, then RobusTest provides you a way to run your tests through RobusTest so that you can see your run reports in one place.
+If your organisation uses Karate to test your APIs, then RobusTest provides you a way to push your test results to RobusTest so that you can see your run reports in one place.
 
 **Pre-requisites:​**
 
