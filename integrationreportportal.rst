@@ -23,19 +23,19 @@ In order to do so, you need to do the following:
 
    2. Click on the + button to create a new Integration
 
-   3. Make the following selections
+   3. Make the following selections:
 
       * Provide a name for this integration
 
-      * In the 'Service Type' drop down, choose the option 'Reporting'
+      * In the *'Service Type'* drop down, choose the option *'Reporting'*.
 
-      * In the 'Service' drop down, choose the option 'Report Portal'
+      * In the *'Service'* drop down, choose the option *'Report Portal'*.
 
-      * Provide the Auth Token for your Report Portal Instance
+      * Provide the Auth Token for your Report Portal Instance.
 
-      * Provide the Base URL for Report Portal. This should be of the form http://{Report Portal URL}/api/v1
+      * Provide the Base URL for Report Portal. This should be of the form *http://{Report Portal URL}/api/v1*
 
-      * In the 'Project Name' field, enter the name of the Report Portal project to be used 
+      * In the *'Project Name'* field, enter the name of the Report Portal project to be used. 
 
    4. Click on 'Save'. An integration entry for report Portal is now successfully created.
 
@@ -58,7 +58,7 @@ In order to do so, you need to do the following:
 
    7. Once the necessary changes have been made, save your run setting.
 
-**3. Submit the job using the run setting
+**3. Submit the job using the run setting**
 
    * Now that you have created your run setting, submit a job using this run setting,
 
