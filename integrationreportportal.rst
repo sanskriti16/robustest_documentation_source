@@ -25,7 +25,7 @@ In order to do so, you need to do the following:
 
    3. Make the following selections
 
-	  * Provide a name for this integration
+      * Provide a name for this integration
 
       * In the 'Service Type' drop down, choose the option 'Reporting'
 
