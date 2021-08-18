@@ -5,21 +5,30 @@ When running your automated tests, you may want to capture the screen of the mob
 
 RobusTest enables you to capture the mobile device screen as a video.
 
-1. Currently you can capture device screen for Android devices
+*Currently you can capture device screen for Espresso tests run on Android devices*
 
-2. You can capture device screen for Espresso test runs
+**Configuring your Espresso test runs to capture device screen**
 
-*Configuring your Espresso test runs to capture device screen*
+1. Note that the screen recording can only be stored on external storage providers like Google Storage and AWS. Currently, screen recording files can be pushed to two storage providers - Google and AWS.
 
+2. Ensure that your Google or AWS storage bucket is registed with RobusTest.
 
-1. The device screen video file will be pushed to an external storage source. Currently, screen recording files can be pushed to two storage providers - Google and AWS.
+3. Once you have created an integration in RobusTest, note the Integration ID. This integration ID will be specified in the Run Settings that you shall use for your job.
 
-2. Start by creating a storage integration
+4. Open an existing Run Settings for editing or create a new one.
 
-3. Once created note the integration ID
+5. In the Job section, look for the testDataCollections sub-section.
 
-4. In the Run Settings that you shall use for your automation job, specify the details under testDataCollections to inform the system that your test requires that device screen is captured. This should be done in the following way
+6. Create the first entry by entering the following values
 
-4a. Specify stats
+testDataCollections.testDataPoint: stats
+testDataCollections.integrationType: {Google/AWS. Do not use the curly brackets}
+testDataCollections.integrationID: {Integration ID that you have noted in step 3. Do not use the curly brackets}
+testDataCollections.invokeConditions:
 
-4b. Specicy video
+7. Create the second entry by entering the following values
+
+testDataCollections.testDataPoint: video
+testDataCollections.integrationType: {Google/AWS. Do not use the curly brackets}
+testDataCollections.integrationID: {Integration ID that you have noted in step 3. Do not use the curly brackets}
+testDataCollections.invokeConditions:
