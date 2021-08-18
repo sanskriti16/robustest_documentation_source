@@ -22,13 +22,19 @@ RobusTest enables you to capture the mobile device screen as a video.
 6. Create the first entry by entering the following values
 
 testDataCollections.testDataPoint: stats
+
 testDataCollections.integrationType: {Google/AWS. Do not use the curly brackets}
+
 testDataCollections.integrationID: {Integration ID that you have noted in step 3. Do not use the curly brackets}
+
 testDataCollections.invokeConditions:
 
 7. Create the second entry by entering the following values
 
 testDataCollections.testDataPoint: video
+
 testDataCollections.integrationType: {Google/AWS. Do not use the curly brackets}
+
 testDataCollections.integrationID: {Integration ID that you have noted in step 3. Do not use the curly brackets}
+
 testDataCollections.invokeConditions:
