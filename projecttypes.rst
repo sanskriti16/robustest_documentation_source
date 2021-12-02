@@ -19,7 +19,7 @@ Select this option when your goal is to test an Android app. Once the project ha
 
 **2. iOS App Project**
 
-Select this option when your goal is to test an iOS app. Once the project has been created, you can upload your *.ipa file or app build to the project. Once oyour iOS devices are set up you can begin testing on the uploaded build.
+Select this option when your goal is to test an iOS app. Once the project has been created, you can upload your *.ipa file or app build to the project. Once your iOS devices are set up you can begin testing on the uploaded build.
 
 **3. Mobile WebApp Project**
 
